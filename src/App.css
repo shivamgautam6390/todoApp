@@ -1,0 +1,110 @@
+* {
+  background-color: whitesmoke;
+  outline: none;
+}
+
+.todo_buttons {
+  background-color: antiquewhite;
+
+}
+
+.todo_list {
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
+  color: rgb(83, 8, 112);
+  background-color: antiquewhite;
+  padding-top: 1rem;
+  border: 1px solid;
+  margin: 100px auto;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid;
+  height: 20px;
+  font-size: 16px;
+  background-color: antiquewhite;
+}
+
+form button {
+  padding: 3px;
+  width: 100px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+form>button:hover {
+  background-color: #585858;
+  color: white;
+  cursor: pointer;
+}
+
+.todo_wrapper {
+  margin: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #585858;
+  list-style: none;
+  border: 1px solid;
+  background-color: antiquewhite;
+}
+
+.todo_list>form {
+  background-color: antiquewhite;
+}
+
+.todo_item {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  background-color: antiquewhite;
+}
+
+.todo_item>p {
+  /* margin: 0; */
+  margin-top: 6px;
+  font-size: 18px;
+  margin-right: 0px;
+  width: 200px;
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+
+.todo_item div button {
+  margin: 2px 5px 2px 5px;
+  border: 1px solid;
+  border-radius: 15px;
+  background-color: antiquewhite;
+
+}
+
+div button:hover {
+  /* background-color: #585858;
+  color: white; */
+  cursor: pointer;
+}
+
+button>img {
+  height: 15px;
+  background-color: white;
+  width: 15px;
+}
